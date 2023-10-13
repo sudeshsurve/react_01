@@ -5,7 +5,7 @@ function Apple() {
     let [show, showDta] = useState(true)
     const updateState = () => {
         setData(data + 1)
-    }
+    } 
 
     const toggle = () => {
         showDta(show = !show)
